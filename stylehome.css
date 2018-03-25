@@ -25,6 +25,7 @@ div.card{
     margin-bottom: 1em;
 }
 
+
 @media (min-width: 768px) { 
     div.blogcontent{
         display: flex;
@@ -161,8 +162,9 @@ div.flex2{
     flex-wrap: wrap;
 }
 .front{
-    width:300px;
+    width:310px;
     margin-right:1em;
+    height:380px;
 }
 .front2{
     width:300px;

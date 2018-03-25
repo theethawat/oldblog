@@ -11,16 +11,31 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> 
 <link rel="stylesheet" href="stylehome.css" type="text/css" >
-
+<link rel="stylesheet" href="node_modules/pure-css-loader/dist/loader-bar-ping-pong.css">
 
 </head>
+
+
 <body>
+  <script>
+    $(document).ready(function(){
+        $(document).ready(function(){
+          $("#animation").fadeOut(3000);
+        });
+    });
+  </script>
+ 
+    <!-- loader is actiove -->
+    <div id="animation" class="loader loader-bar-ping-pong is-active" data-rounded></div>
+
+
 <nav class="navbar navbar-expand-lg sticky-top navbar-dark  navgreen blue kanit">
 <span>
-<img src=" " width="30" height="30" alt="">
-  <a class="navbar-brand" href="index.html">The Duck Creator</span>
+<img src="logoduck.png" width="30" height="30" alt="">
+  <a class="navbar-brand" href="index.html">Theethawat </span>
 
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav litsize">
@@ -44,7 +59,7 @@
     <h1 class="display-4 kanit" style="color:white;" >I'm Theethawat.</h1>
     <p class="lead kanit" style="color:white;">สตูดิโอผลงานที่โชว์ที่ไหนไม่ได้ เริ่มจากเล็กในวันนี้ แต่มันคงใหญ่ในสักวัน</p>
     <a href="page/about.html"><button type="button" class="btn btn-outline-light headstorybutton">Biology</button></a>
-    <a href="#work"><button type="button" class="btn btn-outline-light headstorybutton">My Work</button></a>
+    <a href="#work"><button type="button" id="scrolldowntowork" class="btn btn-outline-light headstorybutton">My Work</button></a>
   </div>
 
 </div>
@@ -130,7 +145,7 @@
              <img class='card-img-top' src='itemphoto/bigasiaapp.png'>
                   <div class="card-body"> 
                  <h6 class="kanit">Big Asia App <span class="badge badge-primary">2018</span></h6>
-                  <p>เว็บแอพพลิเคชั่น และ Andriod Shortcut Application นำเสนอข้อมูลประเทศต่างๆ ในเอเชีย และแพลตฟอร์มการโพสต์ให้ผู้ใช้เพิ่มข้อมูล<br> <a href="http://app.bigasia.in.th">เข้าเว็บไซต์</a> 
+                  <p>เว็บแอพพลิเคชั่น และ Andriod Shortcut Application นำเสนอข้อมูลประเทศต่างๆ ในเอเชีย  <a href="http://app.bigasia.in.th">เข้าเว็บไซต์</a> 
                   <a href="https://play.google.com/store/apps/details?id=com.wBigAsiaThailand_6277963">ดาวน์โหลด</a><br>
                   <span class="badge badge-pill badge-danger kanit">ไม่ประสบความสำเร็จ</span></p>
                   <i class="fab fa-php"></i> PHP <i class="fab fa-html5"></i> HTML</p>
@@ -171,11 +186,11 @@
                             <img class='card-img-top' src='itemphoto/bigasiamag.png'>
                           <div class="card-body"> 
                          <h6 class="kanit">Big Asia Magazine 1 ในหลวงของปวงชน <span class="badge badge-primary">2016</span></h6>
-                          <p>หนังสือบิ๊กเอเชียแมกาซีนเล่มแรก และยังคงเป็นเล่มเดียว 
-                            นำเสนอเพื่อระลึกถึงพระมหากรุณาธิคุณของพระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช ทั้งต่อคนไทย และการเจริญสัมพันธไมตรีกับประเทศในเอเชีย
+                          <p>
+                           ระลึกถึงพระมหากรุณาธิคุณของพระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช 
                             เผยแพร่ทั้งใน issue.com และ ebook.in.th <a href="https://issuu.com/bigasiawebsite/docs/bigasia____________________________">อ่าน</a>
                          <br><span class="badge badge-pill badge-success kanit">ประสบความสำเร็จ</span></p>
-                         <i class="fas fa-book"></i> Writing </p>
+                         
                         
                          </div>
                          
