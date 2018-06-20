@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>The Duck Creator and Tin Studio แหล่งรวมทุกอย่างที่เป็นตินคนนี้</title>
+    <title>Theethawat Savastham | Tin Studio</title>
     <link rel="shortcut icon" href="logo.png"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -44,19 +44,24 @@
     <div id="animation" class="loader loader-bar-ping-pong is-active" data-rounded></div>
     -->
 
-<nav class="navbar navbar-expand-lg sticky-top navbar-dark  navgreen blue kanit">
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark  navgreen  kanit" >
 <span>
 <img src="logoduck.png" width="30" height="30" alt="">
   <a class="navbar-brand" href="index.html">Theethawat </span>
 
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav litsize">
+    <ul class="navbar-nav litsize mr-auto">
     <a class="nav-item nav-link active " href="#">หน้าหลัก <span class="sr-only">(current)</span></a>
     <a class="nav-item nav-link " href="blog">บล็อก<span class="sr-only">(current)</span></a>  
     <a class="nav-item nav-link " href="page/about.html">เกี่ยวกับเรา <span class="sr-only">(current)</span></a>
-    <a class="nav-item nav-link " href="download">ดาวน์โหลด<span class="sr-only">(current)</span></a>      
+    <a class="nav-item nav-link " href="download">ดาวน์โหลด<span class="sr-only">(current)</span></a>
     </ul>
     
+    <ul class="navbar-nav desktop-social">
+    <a class="nav-item nav-link"  href="https://github.com/theethawat"><i class="fab fa-github"></i> <span class="mobile-only">GitHub</span></a>
+    <a class="nav-item nav-link"  href="https://facebook.com/tinstudiothailand"><i class="fab fa-facebook"></i> <span class="mobile-only">facebook</span></a>
+    <a class="nav-item nav-link"  href="https://instagram.com/tin_savastham"><i class="fab fa-instagram"></i> <span class="mobile-only">Instagram</span></a>
+    </ul>
   </div>
  
     
@@ -72,42 +77,52 @@
     <p class="lead kanit" style="color:white;">สตูดิโอผลงานที่โชว์ที่ไหนไม่ได้ เริ่มจากเล็กในวันนี้ แต่มันคงใหญ่ในสักวัน</p>
     <a href="page/about.html"><button type="button" class="btn btn-outline-light headstorybutton kanit">เกี่ยวกับเรา</button></a>
     <a href="#work"><button type="button" id="scrolldowntowork" class="btn btn-outline-light headstorybutton kanit">ผลงานที่ทำ</button></a>
+    <a href="#present"><button type="button" id="scrolldowntowork" class="btn btn-outline-light headstorybutton kanit">โปรเจกต์ปัจจุบัน</button></a>
   </div>
 
 </div>
 <br>
 <div class="container">
 
-
-<div class="card"><div class="card-body headpic1">
-<img src="itemphoto/tin.jpg" class="img-thumbnail" alt="Theethawat Savastham" style="margin:1em;width:150px;height:150px;"><br>
-<div>
-    <h5 class="kanit">Tin Theethawat Savastham </h5>
-    <p>2nd Year Student in Computer Engineering , Prince of Songkla University Hatyai Thailand <br>
-    ติน ธีร์ธวัช สวาสดิ์ธรรม นักศึกษาปี 2 สาขาวิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตหาดใหญ่</p></div>
-
-
-</div></div><!-- for card and card body -->
-
+<div class="row">
+  <div class="col-sm-4">
+    <!--
+    <div class="card">
+      <div class="card-header">
+        Profile
+      </div>-->
+      <div class="card-body headpic1">
+        <img src="itemphoto/tin.jpg" class="myimage" alt="Theethawat Savastham" ><br>
+        <blockquote class="blockquote kanit">
+    สวัสดีครับ ผมชื่อติน นักศึกษาปี 2 วิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตหาดใหญ่ครับ
+        <footer class="blockquote-footer">ธีร์ธวัช สวาสดิ์ธรรม</footer>
+      </blockquote>
+      </div>  
+        
+       <!-- </div></div>--><!-- for card and card body -->
+  </div><!--for col sm 4-->
 <!--feature-->
-<div class="card" style="width:100%;">
-    <div class="card-header">
-      Feature
-    </div>
-    <div class="card-body justify-content-around" style="display:flex;flex-wrap: wrap;">
-      <img style="margin:1em;width:120px;height:120px;" src="itemphoto/logo_tbh_bg.png"  >
-      <div>
-        <h4 class="kanit">ติดตามโปรเจกต์ใหม่ ThailandBlogHub X Laravel 5.6 <span class="badge badge-success">New</span></h4>
-        <h6>การกลับมาทำอีกครั้งของไทยแลนด์บล็อกฮับ โดยใช้ PHP Framework Laravel เพื่อระบบที่เสถียรและเขียนง่ายยิ่งขึ้น และโค้ดเป็นระเบียบมากขึ้น</h6>
-        <div class="d-flex justify-content-center">
-          <a href="https://github.com/theethawat/Thailandbloghub-Laravel"><button class="btn btn-light"><i class="fab fa-github"></i> ติดตามโค้ดใน GitHub</button></a>
-          <a href="https://theethawat.github.io/Thailandbloghub-Laravel"><button class="btn btn-light"><i class="fas fa-paper-plane"></i> ติดตามความเคลื่อนไหวโปรเจกต์</button></a>
-        </div>
+  <div class="col-sm-8">
+    
+    <div class="card no-pc-2" style="height: 95%;" >
+      <div class="card-header no-pc">
+        Feature
       </div>
-    </div>
-  </div>
+      <div class="card-body justify-content-center" style="display:flex;flex-wrap: wrap;">
+        <img style="margin:1em;width:120px;height:120px;" src="itemphoto/logo_tbh_bg.png"  >
+        <div class="justify-content-center" style="text-align: center">
+          <h4 class="kanit">ติดตามโปรเจกต์ใหม่ ThailandBlogHub X Laravel 5.6 <span class="badge badge-success">New</span></h4>
+          <p>การกลับมาทำอีกครั้งของไทยแลนด์บล็อกฮับ โดยใช้ PHP Framework Laravel เพื่อระบบที่เสถียรและเขียนง่ายยิ่งขึ้น และโค้ดเป็นระเบียบมากขึ้น</p>
+          <div class="justify-content-center" style="display:flex;flex-wrap: wrap;" >
+              <a href="https://github.com/theethawat/Thailandbloghub-Laravel"><button class="btn btn-light"><i class="fab fa-github"></i> ติดตามโค้ดใน GitHub</button></a>
+              <a href="https://theethawat.github.io/Thailandbloghub-Laravel"><button class="btn btn-light"><i class="fas fa-paper-plane"></i> ติดตามความเคลื่อนไหวโปรเจกต์</button></a>
+          </div> <!--for justify content center-->
+        </div> <!--for justify content center-->
+      </div><!--for card body-->
+ </div><!--for card-->
+  </div><!--for col sm 8-->
 <!--endsection-->
-
+</div><!--for row div-->
  <h4 class="kanit">บทความ </h4><hr>
    <div class='flex2'>
    
@@ -150,13 +165,13 @@
 
    <br>
    <!--Section -->
-   <h4 class="kanit">โปรเจกต์ปัจจุบัน </h4><hr>
+   <h4 id="present"  class="kanit ">โปรเจกต์ปัจจุบัน </h4><hr>
    <div class='flex2'>
    
     <div>
     
       <div class="card front">
-        <img class='card-img-top' src='http://codingphase.com/wp-content/uploads/2018/05/laravel.png'>
+        <img class='card-img-top' src='itemphoto/laravel.png'>
       <div class="card-body"> 
      <h6 class="kanit">Thailandbloghub-Laravel <span class="badge badge-success">New</span> </h6>
       <p>เขียนโค้ด ThailandBlogHub ใหม่ด้วย PHP Framework Laravel 5.6 กับการเขียนโค้ดที่เป็นระบบขึ้น
@@ -170,7 +185,7 @@
   </div> <!--for flex 2-->
   <!--endsection-->
    
-      <h4 class="kanit" id="work">งานที่เคยทำ</h4><hr>
+      <h4 class="kanit"  id="work">งานที่เคยทำ</h4><hr>
       <div class='flex2'>
    
           <div>
@@ -295,7 +310,7 @@
 
 <br><br><br>
 <hr>
-<p style="text-align:center;font-size:14px;">Theethawat Savastham | <a href="mailto:5910110150@email.psu.ac.th"><i class="fas fa-envelope"></i> 5910110150@email.psu.ac.th </a> | theethawat.github.io</p>
+<p style="text-align:center;font-size:14px;">Theethawat Savastham | <a href="mailto:theethawat.s@outlook.com"><i class="fas fa-envelope"></i>theethawat.s@outlook.com </a> | theethawat.github.io</p>
 </div> <!--for container div -->
 
 
