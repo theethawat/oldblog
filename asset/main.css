@@ -50,7 +50,11 @@ body{
     border-radius: 0.25em;
     padding-left: 1em;
 }
-
+.obj-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .doc-mac{
     font-size: 24px;
     margin-right:0.25em;
@@ -89,7 +93,26 @@ and https://codepen.io/rusjames/pen/uAFhE */
       margin-left: auto;
       margin-right: auto;
   }
-  
+  .flexdiv{
+      display: flex;
+  }
+  .b-logo-center{
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+  .b-logo{
+      margin-left:0.2em;
+      margin-right: 0.2em;
+  }
+  .main-logo{
+      margin-top:1em;
+      margin-bottom: 0.5em;
+      width: 250px;
+      height: 100px;
+  }
+  .exp-me{
+      font-size: 24px;
+  }
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
@@ -120,6 +143,10 @@ and https://codepen.io/rusjames/pen/uAFhE */
     .main-title{
         font-size: 22px;
     }
+    .b-logo-center{
+        margin-left: 25%;
+        margin-right: 25%;
+      }
   }
    
   @media (min-width: 767.98px){
