@@ -1,0 +1,132 @@
+/*main*/
+body{
+    background-color: black;
+    color: white;
+}
+.kanit{
+    font-family: 'kanit',sans-serif;
+}
+.mono{
+    font-family: 'Roboto Mono', monospace;
+}
+/*frontpage*/
+/*align*/
+.acenter{
+    text-align: center;
+}
+/*color*/
+.yellow{
+    color: yellow;
+}
+.orange{
+    color: orange;
+}
+.deeppink{
+    color: deeppink;
+}
+.red{
+    color: red;
+}
+.green{
+    color: GreenYellow ;
+}
+/*intropart*/
+.main-title{
+    letter-spacing: 0.1em;
+    margin:1em;
+}
+.no-space{
+    letter-spacing: 0em;
+}
+.intro{
+    margin:1em;
+}
+.title-text{
+    margin:1em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    width:100%;
+    background-color: rgb(17, 17, 16);
+    border-radius: 0.25em;
+    padding-left: 1em;
+}
+
+.doc-mac{
+    font-size: 24px;
+    margin-right:0.25em;
+}
+/*from https://css-tricks.com/snippets/css/typewriter-effect/
+and https://codepen.io/rusjames/pen/uAFhE */
+.typewriter{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid deeppink; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+  .typewriter:nth-child(2){
+    animation: 
+      typing2 7s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  .profile-photo{
+    width:180px;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+    margin-top:1em;
+    margin-bottom: 0.8em;
+  }
+  .mypresent-center{
+      width: 90%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: deeppink; }
+  }
+
+  @keyframes typing2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100%; } 
+  } 
+
+ 
+  @media (max-width: 767.98px){
+    .hl-type{
+        font-size: 16px;
+    }
+    .doc-mac{
+        font-size: 16px;
+        margin-right:0.25em;
+    }
+    .main-title{
+        font-size: 22px;
+    }
+  }
+   
+  @media (min-width: 767.98px){
+    .mycode{
+        width: 60%;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+   }
+  }
