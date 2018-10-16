@@ -1,392 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>T[>in</title>
-    <link rel="shortcut icon" href="asset/logo/logo_only.png"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> 
-<link rel="stylesheet" href="stylehome.css" type="text/css" >
-<link rel="stylesheet" href="node_modules/pure-css-loader/dist/loader-bar-ping-pong.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Website Information Tag-->
+  <title>T[>in</title>
+  <link rel="shortcut icon" href="asset/logo/logo_only.png" />
+  <!--CDN JS/CSS Library-->
+  <!--Bootstrap 4.1.3 and Jquery 3.3.1 (builtin Bootstrap)-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <!--Font Awesome icons-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!--My Custom Stylesheet CSS-->
+  <link rel="stylesheet" href="stylehome.css" type="text/css">
+  <!--Pure CSS Loder with node.js-->
+  <link rel="stylesheet" href="node_modules/pure-css-loader/dist/loader-bar-ping-pong.css">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104473772-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104473772-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-104473772-3');
-</script>
+    gtag('config', 'UA-104473772-3');
+  </script>
 
 </head>
 
 
 <body>
-  <!--
+ <!--Script for CSS Loader-->
   <script>
-    $(document).ready(function(){
-        $(document).ready(function(){
-          $("#animation").fadeOut(7000);
-        });
+    $(document).ready(function () {
+      $(document).ready(function () {
+        $("#animation").fadeOut(7000);
+      });
     });
   </script>
- -->
-    <!-- loader is actiove -->
-    <!--
-    <div id="animation" class="loader loader-bar-ping-pong is-active" data-rounded></div>
-    -->
 
-<nav class="navbar navbar-expand-lg sticky-top navbar-dark  navgreen  kanit" >
-<span>
-<img src="logoduck.png" width="30" height="30" alt="">
-  <a class="navbar-brand" href="index.html">Theethawat </span>
+  <!-- loader is active -->
 
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav litsize mr-auto">
-    <a class="nav-item nav-link active " href="#">หน้าหลัก <span class="sr-only">(current)</span></a>
-    <a class="nav-item nav-link " href="blog">บล็อก<span class="sr-only">(current)</span></a>  
-    <a class="nav-item nav-link " href="page/about.html">เกี่ยวกับเรา <span class="sr-only">(current)</span></a>
-    <a class="nav-item nav-link " href="download">ดาวน์โหลด<span class="sr-only">(current)</span></a>
-    </ul>
-    
-    <ul class="navbar-nav desktop-social">
-    <a class="nav-item nav-link"  href="https://github.com/theethawat"><i class="fab fa-github"></i> <span class="mobile-only">GitHub</span></a>
-    <a class="nav-item nav-link"  href="https://facebook.com/tinstudiothailand"><i class="fab fa-facebook"></i> <span class="mobile-only">facebook</span></a>
-    <a class="nav-item nav-link"  href="https://instagram.com/tin_savastham"><i class="fab fa-instagram"></i> <span class="mobile-only">Instagram</span></a>
-    </ul>
-  </div>
- 
-    
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-</nav>
+  <div id="animation" class="loader loader-bar-ping-pong is-active" data-rounded></div>
 
-<div class="headstory">
-  <div class="container">
-    <br>
-    <h1 class="display-4 kanit" style="color:white;" >I'm Theethawat.</h1>
-    <p class="lead kanit" style="color:white;">สตูดิโอผลงานที่โชว์ที่ไหนไม่ได้ เริ่มจากเล็กในวันนี้ แต่มันคงใหญ่ในสักวัน</p>
-    <a href="page/about.html"><button type="button" class="btn btn-outline-light headstorybutton kanit">เกี่ยวกับเรา</button></a>
-    <a href="#work"><button type="button" id="scrolldowntowork" class="btn btn-outline-light headstorybutton kanit">ผลงานที่ทำ</button></a>
-    <a href="#present"><button type="button" id="scrolldowntowork" class="btn btn-outline-light headstorybutton kanit">โปรเจกต์ปัจจุบัน</button></a>
-  </div>
+<!-- Nav Bar-->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark  navgreen  kanit">
+    <span>
 
-</div>
-<br>
-<div class="container">
+      <a class="navbar-brand" href="index2.html"><img src="asset/logo/logo_white.png" width="80" height="30" alt="logo_tin"></span>
 
-<div class="row">
-  <div class="col-sm-4">
-    <!--
-    <div class="card">
-      <div class="card-header">
-        Profile
-      </div>-->
-      <div class="card-body headpic1">
-        <img src="itemphoto/tin.jpg" class="myimage" alt="Theethawat Savastham" ><br>
-        <blockquote class="blockquote kanit">
-    สวัสดีครับ ผมชื่อติน นักศึกษาปี 2 วิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตหาดใหญ่ครับ
-        <footer class="blockquote-footer">ธีร์ธวัช สวาสดิ์ธรรม</footer>
-      </blockquote>
-      </div>  
-        
-       <!-- </div></div>--><!-- for card and card body -->
-  </div><!--for col sm 4-->
-<!--feature-->
-  <div class="col-sm-8">
-    
-    <div class="card no-pc-2" style="height: 95%;" >
-      <div class="card-header no-pc">
-        Feature
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav litsize mr-auto">
+        <a class="nav-item nav-link active " href="#">หน้าหลัก <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link " href="blog">บล็อก<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link " href="page/about.html">เกี่ยวกับเรา <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link " href="download">ดาวน์โหลด<span class="sr-only">(current)</span></a>
+      </ul>
+
+      <ul class="navbar-nav desktop-social">
+        <a class="nav-item nav-link" href="https://github.com/theethawat"><i class="fab fa-github"></i> <span class="mobile-only">GitHub</span></a>
+        <a class="nav-item nav-link" href="https://facebook.com/tinstudiothailand"><i class="fab fa-facebook"></i>
+          <span class="mobile-only">facebook</span></a>
+        <a class="nav-item nav-link" href="https://instagram.com/tin_savastham"><i class="fab fa-instagram"></i> <span
+            class="mobile-only">Instagram</span></a>
+      </ul>
+    </div>
+
+<!--Nav Bar Icon on Mobile device (Built in Bootstrap)-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+<!--Heading (Pink head) Using heropattern svg background CSS-->
+  <div class="headstory">
+    <div class="container">
+      <br>
+      <div class="row">
+        <div class="col-sm" style="height:100%;">
+          <img class="big-logo-main" src="asset/logo/logo_white.png">
+        </div>
+        <div class="col-sm">
+          <h1 class="display-4 kanit dis4-mb" style="color:white;">Theethawat S.</h1>
+          <p class="lead kanit" style="color:white;">สตูดิโอผลงานที่พร้อมจะเปิดโชว์เสมอ เมื่อมีประตูเปิดขึ้นมา</p>
+          <a href="page/about.html"><button type="button" class="btn btn-outline-light headstorybutton kanit">เกี่ยวกับเรา</button></a>
+          <a href="#work"><button type="button" id="scrolldowntowork" class="btn btn-outline-light headstorybutton kanit">ผลงานที่ทำ</button></a>
+          <a href="#present"><button type="button" id="scrolldowntowork" class="btn btn-outline-light headstorybutton kanit">โปรเจกต์ปัจจุบัน</button></a>
+        </div>
+
       </div>
-      <div class="card-body justify-content-center" style="display:flex;flex-wrap: wrap;">
-        <img style="margin:1em;width:120px;height:120px;" src="itemphoto/logo_tbh_bg.png"  >
-        <div class="justify-content-center" style="text-align: center">
-          <h4 class="kanit">ติดตามโปรเจกต์ใหม่ ThailandBlogHub X Laravel 5.6 <span class="badge badge-success">New</span></h4>
-          <p>การกลับมาทำอีกครั้งของไทยแลนด์บล็อกฮับ โดยใช้ PHP Framework Laravel เพื่อระบบที่เสถียรและเขียนง่ายยิ่งขึ้น และโค้ดเป็นระเบียบมากขึ้น</p>
-          <div class="justify-content-center" style="display:flex;flex-wrap: wrap;" >
-              <a href="https://github.com/theethawat/Thailandbloghub-Laravel"><button class="btn btn-light"><i class="fab fa-github"></i> ติดตามโค้ดใน GitHub</button></a>
-              <a href="https://theethawat.github.io/Thailandbloghub-Laravel"><button class="btn btn-light"><i class="fas fa-paper-plane"></i> ติดตามความเคลื่อนไหวโปรเจกต์</button></a>
-          </div> <!--for justify content center-->
-        </div> <!--for justify content center-->
-      </div><!--for card body-->
- </div><!--for card-->
-  </div><!--for col sm 8-->
-<!--endsection-->
-</div><!--for row div-->
- <h4 class="kanit">บทความ </h4><hr>
-   <div class='flex2'>
-   
-    <div>
-    
-      <div class="card front">
-        <img class='card-img-top' src='itemphoto/bigasia/admin.png'>
-      <div class="card-body"> 
-     <h6 class="kanit">2ปีที่ผ่านมา ได้อะไรบ้างจากบิ๊กเอเชีย </h6>
-      <p>ตลอดสองปีที่ทำเว็บไซต์บิ๊กเอเชียไทยแลนด์ ผู้ชายคนนี้ค้นพบอะไรบ้าง <a href="blog/issue2.html">อ่านต่อ</a></p>
-     </div>
-     
-     </div></div> <!--for card and card body -->
+    </div>
+
+  </div>
+  <br>
+ <!--Main Website Container class Let it beautiful in Desktop Website-->
+  <div class="container">
+<!--Introduce My Self-->
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card-body headpic1">
+          <img src="itemphoto/tin.jpg" class="myimage" alt="Theethawat Savastham"><br>
+        </div>
+      </div><!--for col sm 4-->
+
+      <div class="col-sm-8 my-intro-text">
+        <blockquote class="blockquote kanit my-bq">
+          สวัสดีครับ ผมชื่อติน นักศึกษาปี 3 วิศวกรรมคอมพิวเตอร์
+          จากเดิมที่เป็นคนบอกว่าทำเว็บแล้วเจ๊ง ทำเพจแล้วเจ๊ง ตอนนี้ผมมีประสบการณ์มาแล้ว ผมคิดใหม่แล้ว
+          ผมอาจจะไม่ใช่คนที่เก่ง
+          แต่ผมจะไม่ปิดโอกาสเหล่านั้น ถ้าโอกาสนั้นเข้ามาหาเรา หรือเราเข้าไปหา
+          ผมจะไม่บอกว่า <span style="color:deeppink">ผมยังไม่พร้อม</span> หรือ
+          <span style="color:deeppink">ผมไม่แน่ใจ</span>
+          <footer class="blockquote-footer">ธีร์ธวัช สวาสดิ์ธรรม</footer>
+        </blockquote>
+      </div><!--for col sm 8-->
+    </div><!--for row div-->
 
 
-   <div>
-    
-    <div class="card front">
-      <img class='card-img-top' src='itemphoto/tbh.png'>
-    <div class="card-body"> 
-   <h6 class="kanit">เปิดทดลองเว็บไซต์แบบเบต้า </h6>
-    <p>มาร่วมเป็นหนึ่งในผู้ร่วมก่อตั้ง Thailand Blog Hub ไปด้วยกัน เพียงนำบล็อกของทุกคนมาลิงค์กันที่นี่ <a href="blog/issue1.html">อ่านต่อ</a></p>
-   </div>
-   
-   </div></div> <!--for card and card body -->
-
-   <div>
-    
-        <div class="card front">
-          <img class='card-img-top' src='itemphoto/Capture1.PNG'>
-        <div class="card-body"> 
-       <h6 class="kanit">โปรเจกต์ไทยแลนด์บล็อกฮับ ความเฮฮาครั้งใหม่ </h6>
-        <p>โปรเจกต์ไทยแลนด์บล็อกฮับ เป็นโปรเจกที่สองเกี่ยวกับการเขียนเว็บของผมแล้วครับ หลังจากโปรเจกต์ก็เสร็จนั่นแหละ แต่มันก็เจ๊ง ไม่ถึงขนาดนั้นหรอก แล้วโปรเจกต์นี้ก็คงไปได้ยากเหมือนกัน <a href="https://tinstudio.weebly.com/blog/february-15th-2018">อ่านต่อ</a></p>
-       </div>
-       
-       </div></div> <!--for card and card body -->
 
 
-  </div> <!--for flex 2-->
 
-   <br>
-   <!--Section -->
-   <h4 id="present"  class="kanit ">โปรเจกต์ปัจจุบัน </h4><hr>
-   <div class='flex2'>
-   
-    <div>
-    
-      <div class="card front">
-        <img class='card-img-top' src='itemphoto/laravel.png'>
-      <div class="card-body"> 
-     <h6 class="kanit">Thailandbloghub-Laravel <span class="badge badge-success">New</span> </h6>
-      <p>เขียนโค้ด ThailandBlogHub ใหม่ด้วย PHP Framework Laravel 5.6 กับการเขียนโค้ดที่เป็นระบบขึ้น
-        และประกอบกับส่วนช่วยต่างๆของ Laravel ที่จะทำให้ระบบนี้ง่ายและเสถียรยิ่งขึ้น <br>
-        <a href="https://theethawat.github.io/Thailandbloghub-Laravel">ติดตามโปรเจกต์</a></p>
-        
-     </div>
-     
-     </div></div> <!--for card and card body -->
 
-  </div> <!--for flex 2-->
-  <!--endsection-->
 
-  <!--Section -->
-  <h4 id="school-walk"  class="kanit ">งานที่ส่งอาจารย์</h4><hr>
+
+
+
+  
+ 
+
+<!--Passing Work-->
+  <h4 class="kanit" id="work">งานที่เคยทำ</h4>
+  <hr>
   <div class='flex2'>
-    <div><!-- begin of part -->
-           
+
+    <div>
+
       <div class="card front">
-       <img class='card-img-top' src='itemphoto/html_p.PNG'>
-            <div class="card-body"> 
-              <h6 class="kanit"><a href="https://theethawatcoe.firebaseapp.com/">ฝึกเขียนเว็บไซต์ HTML และ CSS</a> <span class="badge badge-success">2017</span></h6>
-              <p>เว็บแรกในการฝึกเขียน HTML5 และ CSS ในการเรียน โดยนำเรื่องของ Government Smart Kiosk มาเขียน </p>
-            
-              
-              <p><i class="fab fa-html5"></i> HTML 5 <i class="fab fa-css3-alt"></i> CSS 3</p>
-           
-           </div><!--for card body -->
-           
-        </div></div> <!--for card and begin of part -->
-
-        <div><!-- begin of part -->
-           
-          <div class="card front">
-           <img class='card-img-top' src='itemphoto/javascript_p.PNG'>
-                <div class="card-body"> 
-                  <h6 class="kanit"><a href="https://thwjavascript.firebaseapp.com/">ติดตามสถานการณ์น้ำท่วม 2560</a> <span class="badge badge-success">2017</span></h6>
-                  <p>เว็บแรกในการฝึกเขียน Javascript โดยใช้ค้นหาสถานการณ์น้ำท่วมในแต่ละจังหวัด และคำนวณเวลาที่ประสบภัยน้ำท่วม </p>
-                
-                  
-                  <p><i class="fab fa-js-square"></i> Javascript <i class="fab fa-html5"></i> HTML 5 <i class="fab fa-css3-alt"></i> CSS 3</p>
-               
-               </div><!--for card body -->
-               
-            </div></div> <!--for card and begin of part -->
-
-        <div><!-- begin of part -->
-           
-          <div class="card front">
-           <img class='card-img-top' src='itemphoto/laravel_p.PNG'>
-                <div class="card-body"> 
-                  <h6 class="kanit"><a href="http://thailandbloghub.com/laravel/public/myview2/index">Buying Fried Chicken</a> <span class="badge badge-success">2018</span></h6>
-                  <p>Lab เกี่ยวกับ PHP Framwork Laravel 5.0 โดยทำเป็นระบบสั่งไก่ทอด 
-                    เป็นงานแรกที่เขียนด้วย Laravel โดยปรับปรุงจาก Lab Resource ของอาจารย์ <a href="https://github.com/theethawat/Laravellab-Friedchicken/blob/master/2SB07%20Laravel%20Report.pdf">อ่านรายงานแลบ</a> </p>
-                
-                  
-                  <p><i class="fab fa-laravel"></i> Laravel 5.0 <i class="fab fa-php"></i> PHP</p>
-               
-               </div><!--for card body -->
-               
-            </div></div> <!--for card and begin of part -->
-
-         <div><!-- begin of part -->
-           
-          <div class="card front">
-           <img class='card-img-top' src='itemphoto/dotnet_p.PNG'>
-                <div class="card-body"> 
-                  <h6 class="kanit"><a href="https://github.com/theethawat/Visual-Programing-.NET-Lab">Visual Programing with .NET</a> <span class="badge badge-success">2018</span></h6>
-                  <p>ทำ Lab ทดลองการทำ Visual Programing ด้วยโปรแกรม Visual Studio บนฐานของภาษา C# และ .NET Framework แต่ตอนนี้ยังเขียน C# ไม่ได้ </p>
-                
-                  
-                  <p><i class="fas fa-code"></i> C# .NET Framework </p>
-               
-               </div><!--for card body -->
-               
-            </div></div> <!--for card and begin of part -->
-
-
-
-
-
-
- </div> <!--for flex 2-->
- <!--endsection-->
-
-   
-      <h4 class="kanit"  id="work">งานที่เคยทำ</h4><hr>
-      <div class='flex2'>
-   
-          <div>
-           
-           <div class="card front">
-             <img class='card-img-top' src='itemphoto/bigasia.png'>
-           <div class="card-body"> 
+        <img class='card-img-top' src='itemphoto/bigasia.png'>
+        <div class="card-body">
           <h6 class="kanit"><a href="http://www.bigasia.in.th">BIG Asia Thailand</a> <span class="badge badge-success">2016-2018</span></h6>
-           <p>อยากให้ทุกคนได้รู้จักกับเอเชียมากยิ่งขึ้น เว็บไซต์ส่วนตัวแบบใช้โฮสติ้งครั้งแรก <span class="badge badge-pill badge-secondary kanit ">เว็บหยุดการพัฒนาแล้ว</span>
-          <br><br>
-          <i class="fab fa-wordpress-simple"></i> Wordpress </p>
-         
-          </div>
-          
-          </div></div> <!--for card and card body -->
-   
+          <p>อยากให้ทุกคนได้รู้จักกับเอเชียมากยิ่งขึ้น เว็บไซต์ส่วนตัวแบบใช้โฮสติ้งครั้งแรก <span class="badge badge-pill badge-secondary kanit ">เว็บหยุดการพัฒนาแล้ว</span>
+            <br><br>
+            <i class="fab fa-wordpress-simple"></i> Wordpress </p>
 
-       
-          <div>
-           
-               <div class="card front">
-                 <img class='card-img-top' src='itemphoto/skitblog.png'>
-               <div class="card-body"> 
-              <h6 class="kanit"><a href="http://skitbigblog.blogspot.com">Skit Blog</a> <span class="badge badge-success">2011-2014</span></h6>
-               <p>เว็บไซต์สะกิดบล็อก บล็อกส่วนตัวในสมัยที่การทำบล็อกโด่งดัง เขียนและส่งต่อเรื่องที่น่าสนใจจากทุกมุมโลก 
-               <br><span class="badge badge-pill badge-success kanit">ประสบความสำเร็จ</span></p>
-               <i class="fab fa-blogger-b"></i> Blogger </p>
-              
-              </div>
-              
-              </div></div> <!--for card and card body -->
-    
-        <div><!-- begin of part -->
-           
-            <div class="card front">
-             <img class='card-img-top' src='itemphoto/bigasiaapp.png'>
-                  <div class="card-body"> 
-                 <h6 class="kanit"><a href="http://app.bigasia.in.th">Big Asia App</a> <span class="badge badge-success">2018</span></h6>
-                  <p>เว็บแอพพลิเคชั่น และ Andriod Shortcut Application นำเสนอข้อมูลประเทศต่างๆ ในเอเชีย รวมถึงทำแพลตฟอร์มในการเพิ่มเติมเรื่องราว และสถานที่ในเอเชีย
-                  
-                  <span class="badge badge-pill badge-danger kanit">ไม่ประสบความสำเร็จ</span></p>
-                  <i class="fab fa-php"></i> PHP <i class="fab fa-html5"></i> HTML</p>
-                 
-                 </div>
-                 
-                 </div></div> <!--for card and card body -->
+        </div>
 
-                 <div><!-- begin of part -->
-           
-                  <div class="card front">
-                   <img class='card-img-top' src='itemphoto/Capture2.PNG'>
-                        <div class="card-body"> 
-                       <h6 class="kanit"><a href="http://www.thailandbloghub.com">Thailand Blog Hub</a> <span class="badge badge-success">2018</span></h6>
-                        <p>แพลตฟอร์มรวบรวมบล็อก ทำเป็นบล็อกไดเรกทอรีของคนไทย <br>
-                          <span class="badge badge-pill badge-danger kanit">ไม่ประสบความสำเร็จ</span></p>
-                        <i class="fab fa-php"></i> PHP </p>
-                       
-                       </div>
-                       
-                       </div></div> <!--for card and card body -->
-                       <div>
-           
-                          <div class="card front">
-                            <img class='card-img-top' src='itemphoto/bigasiakh.png'>
-                          <div class="card-body"> 
-                         <h6 class="kanit"><a href="http://thebigworld.wixsite.com/bigasia">BIG Asia on Wix</a> <span class="badge badge-success">2016</span></h6>
-                          <p>โปรเจกต์ IS3 เมื่อ ม.6 นำเสนอข้อมูลประเทศในเอเชีย มุมที่น่าสนใจ ลิงค์สาระความรู้ ผ่านทาง Wixsite ที่ Wix.com 
-                         <br><br>
-                         <i class="fas fa-mouse-pointer"></i> Wix.com </p>
-                        
-                         </div>
-                         
-                         </div></div> <!--for card and card body -->
-                         <div>
-           
-                          <div class="card front">
-                            <img class='card-img-top' src='itemphoto/bigasiamag.png'>
-                          <div class="card-body"> 
-                         <h6 class="kanit"><a href="https://issuu.com/bigasiawebsite/docs/bigasia____________________________">Big Asia Magazine 1 ในหลวงของปวงชน</a> <span class="badge badge-success">2016</span></h6>
-                          <p>
-                           วารสารบิ๊กเอเชียเพื่อระลึกถึงพระมหากรุณาธิคุณของพระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช 
-                            เผยแพร่ทั้งใน issue.com และ ebook.in.th 
-                         <br><span class="badge badge-pill badge-success kanit">ประสบความสำเร็จ</span></p>
-                         
-                        
-                         </div>
-                         
-                         </div></div> <!--for card and card body -->
+      </div>
+    </div>
+    <!--for card and card body -->
 
-                         
-                         <div class="card front">
-                          <img class='card-img-top' src='itemphoto/bigasiamag2.PNG'>
-                        <div class="card-body"> 
-                       <h6 class="kanit"><a href="https://issuu.com/bigasiawebsite/docs/big_asia_mag_2">Big Asia Magazine 2 รวบรวมผลงานบิ๊กเอเชีย</a> <span class="badge badge-success">2018</span></h6>
-                        <p>
-                         วารสารบิ๊กเอเชียเล่มที่สอง รวบรวมบทความของบิ๊กเอเชียทั้งหมด ก่อนที่เว็บไซต์จะปิดตัวลงในวันที่ 26 มีนาคม 2561
-                        ลงในรูปแบบ e-book แล้วที่ issue.com/bigasiawebsite
-                       </p>
-                      
-                       
-                       
-                       </div></div> <!--for card and card body -->
-       
-         </div> <!--for flex 2-->
-         <h4 class="kanit" id="follow">ติดตามงาน</h4><hr>
-         <div class="row">
-        <div class="col">
-          <h5 class="kanit">ติดตามเราบนเฟสบุ๊ค</h5>
-          <div id="fb-root"></div> <script>(function(d, s, id) {   var js, fjs = d.getElementsByTagName(s)[0];   if (d.getElementById(id)) return;   js = d.createElement(s); js.id = id;   js.src = 'https://connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v2.12&appId=389712018153235&autoLogAppEvents=1';   fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script><div class="fb-page" data-href="https://www.facebook.com/tinstudiothailand/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/thailandbloghub/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/tinstudiothailand/">Tin Studio</a></blockquote></div>
-        </div><!--for col div -->
-        <div class="col">
-          <h5 class="kanit">ติดตามบน GitHub</h5>
-          <h6 class="kanit"><i class="fab fa-github"></i><a href="https://github.com/theethawat" > Theethawat</a></h6>
-          <br>
-          <h5 class="kanit">ติดตามบน Instagram</h5>
-          <h6 class="kanit"><i class="fab fa-instagram"></i></i><a href="https://instagram.com/tin_savastham" > tin_savastham</a></h6>
-        </div><!--for col div -->
-        </div><!--for row div-->
 
-      
-<br>
 
-<br><br><br>
-<hr>
-<p style="text-align:center;font-size:14px;">Theethawat Savastham | <a href="mailto:theethawat.s@outlook.com"><i class="fas fa-envelope"></i>theethawat.s@outlook.com </a> | theethawat.github.io</p>
+    <div>
 
-</div> <!--for container div -->
+      <div class="card front">
+        <img class='card-img-top' src='itemphoto/skitblog.png'>
+        <div class="card-body">
+          <h6 class="kanit"><a href="http://skitbigblog.blogspot.com">Skit Blog</a> <span class="badge badge-success">2011-2014</span></h6>
+          <p>เว็บไซต์สะกิดบล็อก บล็อกส่วนตัวในสมัยที่การทำบล็อกโด่งดัง เขียนและส่งต่อเรื่องที่น่าสนใจจากทุกมุมโลก
+            <br><span class="badge badge-pill badge-success kanit">ประสบความสำเร็จ</span></p>
+          <i class="fab fa-blogger-b"></i> Blogger </p>
+
+        </div>
+
+      </div>
+    </div>
+    <!--for card and card body -->
+
+    <div>
+      <!-- begin of part -->
+
+      <div class="card front">
+        <img class='card-img-top' src='itemphoto/bigasiaapp.png'>
+        <div class="card-body">
+          <h6 class="kanit"><a href="http://app.bigasia.in.th">Big Asia App</a> <span class="badge badge-success">2018</span></h6>
+          <p>เว็บแอพพลิเคชั่น และ Andriod Shortcut Application นำเสนอข้อมูลประเทศต่างๆ ในเอเชีย
+            รวมถึงทำแพลตฟอร์มในการเพิ่มเติมเรื่องราว และสถานที่ในเอเชีย
+
+            <span class="badge badge-pill badge-danger kanit">ไม่ประสบความสำเร็จ</span></p>
+          <i class="fab fa-php"></i> PHP <i class="fab fa-html5"></i> HTML</p>
+
+        </div>
+
+      </div>
+    </div>
+    <!--for card and card body -->
+
+    <div>
+      <!-- begin of part -->
+
+      <div class="card front">
+        <img class='card-img-top' src='itemphoto/Capture2.PNG'>
+        <div class="card-body">
+          <h6 class="kanit"><a href="http://www.thailandbloghub.com">Thailand Blog Hub</a> <span class="badge badge-success">2018</span></h6>
+          <p>แพลตฟอร์มรวบรวมบล็อก ทำเป็นบล็อกไดเรกทอรีของคนไทย <br>
+            <span class="badge badge-pill badge-danger kanit">ไม่ประสบความสำเร็จ</span></p>
+          <i class="fab fa-php"></i> PHP </p>
+
+        </div>
+
+      </div>
+    </div>
+    <!--for card and card body -->
+    <div>
+
+      <div class="card front">
+        <img class='card-img-top' src='itemphoto/bigasiakh.png'>
+        <div class="card-body">
+          <h6 class="kanit"><a href="http://thebigworld.wixsite.com/bigasia">BIG Asia on Wix</a> <span class="badge badge-success">2016</span></h6>
+          <p>โปรเจกต์ IS3 เมื่อ ม.6 นำเสนอข้อมูลประเทศในเอเชีย มุมที่น่าสนใจ ลิงค์สาระความรู้ ผ่านทาง Wixsite ที่
+            Wix.com
+            <br><br>
+            <i class="fas fa-mouse-pointer"></i> Wix.com </p>
+
+        </div>
+
+      </div>
+    </div>
+    <!--for card and card body -->
+    <div>
+
+      <div class="card front">
+        <img class='card-img-top' src='itemphoto/bigasiamag.png'>
+        <div class="card-body">
+          <h6 class="kanit"><a href="https://issuu.com/bigasiawebsite/docs/bigasia____________________________">Big
+              Asia Magazine 1 ในหลวงของปวงชน</a> <span class="badge badge-success">2016</span></h6>
+          <p>
+            วารสารบิ๊กเอเชียเพื่อระลึกถึงพระมหากรุณาธิคุณของพระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช
+            เผยแพร่ทั้งใน issue.com และ ebook.in.th
+            <br><span class="badge badge-pill badge-success kanit">ประสบความสำเร็จ</span></p>
+
+
+        </div>
+
+      </div>
+    </div>
+    <!--for card and card body -->
+
+
+    <div class="card front">
+      <img class='card-img-top' src='itemphoto/bigasiamag2.PNG'>
+      <div class="card-body">
+        <h6 class="kanit"><a href="https://issuu.com/bigasiawebsite/docs/big_asia_mag_2">Big Asia Magazine 2
+            รวบรวมผลงานบิ๊กเอเชีย</a> <span class="badge badge-success">2018</span></h6>
+        <p>
+          วารสารบิ๊กเอเชียเล่มที่สอง รวบรวมบทความของบิ๊กเอเชียทั้งหมด ก่อนที่เว็บไซต์จะปิดตัวลงในวันที่ 26 มีนาคม 2561
+          ลงในรูปแบบ e-book แล้วที่ issue.com/bigasiawebsite
+        </p>
+
+
+
+      </div>
+    </div>
+    <!--for card and card body -->
+
+  </div>
+  <!--for flex 2-->
+  <!--Section -->
+  <h4 id="school-walk" class="kanit ">งานที่ส่งอาจารย์</h4>
+  <hr>
+  <div class='flex2'>
+    <div>
+      <!-- begin of part -->
+
+      <div class="card front">
+        <img class='card-img-top' src='itemphoto/html_p.PNG'>
+        <div class="card-body">
+          <h6 class="kanit"><a href="https://theethawatcoe.firebaseapp.com/">ฝึกเขียนเว็บไซต์ HTML และ CSS</a> <span
+              class="badge badge-success">2017</span></h6>
+          <p>เว็บแรกในการฝึกเขียน HTML5 และ CSS ในการเรียน โดยนำเรื่องของ Government Smart Kiosk มาเขียน </p>
+
+
+          <p><i class="fab fa-html5"></i> HTML 5 <i class="fab fa-css3-alt"></i> CSS 3</p>
+
+        </div>
+        <!--for card body -->
+
+      </div>
+    </div>
+    <!--for card and begin of part -->
+
+    <div>
+      <!-- begin of part -->
+
+      <div class="card front">
+        <img class='card-img-top' src='itemphoto/javascript_p.PNG'>
+        <div class="card-body">
+          <h6 class="kanit"><a href="https://thwjavascript.firebaseapp.com/">ติดตามสถานการณ์น้ำท่วม 2560</a> <span
+              class="badge badge-success">2017</span></h6>
+          <p>เว็บแรกในการฝึกเขียน Javascript โดยใช้ค้นหาสถานการณ์น้ำท่วมในแต่ละจังหวัด และคำนวณเวลาที่ประสบภัยน้ำท่วม
+          </p>
+
+
+          <p><i class="fab fa-js-square"></i> Javascript <i class="fab fa-html5"></i> HTML 5 <i class="fab fa-css3-alt"></i>
+            CSS 3</p>
+
+        </div>
+        <!--for card body -->
+
+      </div>
+    </div>
+    <!--for card and begin of part -->
+
+    <div>
+      <!-- begin of part -->
+
+      <div class="card front">
+        <img class='card-img-top' src='itemphoto/laravel_p.PNG'>
+        <div class="card-body">
+          <h6 class="kanit"><a href="http://thailandbloghub.com/laravel/public/myview2/index">Buying Fried Chicken</a>
+            <span class="badge badge-success">2018</span></h6>
+          <p>Lab เกี่ยวกับ PHP Framwork Laravel 5.0 โดยทำเป็นระบบสั่งไก่ทอด
+            เป็นงานแรกที่เขียนด้วย Laravel โดยปรับปรุงจาก Lab Resource ของอาจารย์ <a href="https://github.com/theethawat/Laravellab-Friedchicken/blob/master/2SB07%20Laravel%20Report.pdf">อ่านรายงานแลบ</a>
+          </p>
+
+
+          <p><i class="fab fa-laravel"></i> Laravel 5.0 <i class="fab fa-php"></i> PHP</p>
+
+        </div>
+        <!--for card body -->
+
+      </div>
+    </div>
+    <!--for card and begin of part -->
+
+    <div>
+      <!-- begin of part -->
+
+      <div class="card front">
+        <img class='card-img-top' src='itemphoto/dotnet_p.PNG'>
+        <div class="card-body">
+          <h6 class="kanit"><a href="https://github.com/theethawat/Visual-Programing-.NET-Lab">Visual Programing with
+              .NET</a> <span class="badge badge-success">2018</span></h6>
+          <p>ทำ Lab ทดลองการทำ Visual Programing ด้วยโปรแกรม Visual Studio บนฐานของภาษา C# และ .NET Framework
+            แต่ตอนนี้ยังเขียน C# ไม่ได้ </p>
+
+
+          <p><i class="fas fa-code"></i> C# .NET Framework </p>
+
+        </div>
+        <!--for card body -->
+
+      </div>
+    </div>
+    <!--for card and begin of part -->
+    </div>
+
+    <h4 class="kanit" id="follow">ติดตามงาน</h4>
+    <hr>
+    <div class="row">
+      <div class="col">
+        <h5 class="kanit">ติดตามเราบนเฟสบุ๊ค</h5>
+        <div id="fb-root"></div>
+        <script>(function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = 'https://connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v2.12&appId=389712018153235&autoLogAppEvents=1'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+        <div class="fb-page" data-href="https://www.facebook.com/tinstudiothailand/" data-small-header="false"
+          data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <blockquote cite="https://www.facebook.com/thailandbloghub/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/tinstudiothailand/">Tin
+              Studio</a></blockquote>
+        </div>
+      </div>
+      <!--for col div -->
+      <div class="col">
+        <h5 class="kanit">ติดตามบน GitHub</h5>
+        <h6 class="kanit"><i class="fab fa-github"></i><a href="https://github.com/theethawat"> Theethawat</a></h6>
+        <br>
+        <h5 class="kanit">ติดตามบน Instagram</h5>
+        <h6 class="kanit"><i class="fab fa-instagram"></i></i><a href="https://instagram.com/tin_savastham">
+            tin_savastham</a></h6>
+      </div>
+      <!--for col div -->
+    </div>
+    <!--for row div-->
+
+
+    <br>
+
+    <br><br><br>
+    <hr>
+    <p style="text-align:center;font-size:14px;">Theethawat Savastham | <a href="mailto:theethawat.s@outlook.com"><i
+          class="fas fa-envelope"></i>theethawat.s@outlook.com </a> | theethawat.github.io</p>
+
+  </div>
+  <!--for container div -->
 
 
 </body>
+
 </html>
