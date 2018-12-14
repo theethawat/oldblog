@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 
 <head>
   <meta charset="UTF-8">
@@ -8,15 +8,19 @@
   <!--Website Information Tag-->
   <title>T[>in</title>
   <link rel="shortcut icon" href="asset/logo/logo_only.png" />
-  <!--CDN JS/CSS Library-->
-  <!--Bootstrap 4.1.3 and Jquery 3.3.1 (builtin Bootstrap)-->
+  <meta property="og:url" content="https://www.theethawatspace.in.th" />
+  <meta property="og:title" content="TheethawatSpace | Theethawat Savastham Personal Website" />
+  <meta property="og:description" content="สตูดิโอผลงานของผม ติน ธีร์ธวัช สวาสดิ์ธรรม ที่พร้อมจะเปิดโชว์เสมอ เมื่อมีประตูเปิดขึ้นมา ากเดิมที่เป็นคนบอกว่าทำเว็บแล้วเจ๊ง ทำเพจแล้วเจ๊ง ตอนนี้ผมมีประสบการณ์มาแล้ว ผมคิดใหม่แล้ว ผมอาจจะไม่ใช่คนที่เก่ง แต่ผมจะไม่ปิดโอกาสเหล่านั้น ถ้าโอกาสนั้นเข้ามาหาเรา " />
+  <meta name="keywords" content="ธีร์ธวัช,ธีร์ธวัช สวาสดิ์ธรรม,Theethawat,Theethawat Savastham,TheethawatSpace,CreatorStudio,Demo,Web Developer" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="https://theethawatspace.in.th/itemphoto/tin_full.png" />
+  <meta property="og:image:width" content="500" />
+  <meta property="og:image:type" content="image/png" />
+ 
+
+  <!--CDN Bootstrap CSS Library-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!--Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
   <!--Font Awesome icons-->
@@ -25,8 +29,8 @@
   <!--My Custom Stylesheet CSS-->
   <link rel="stylesheet" href="stylehome.css" type="text/css">
   <!--Pure CSS Loder with node.js-->
-  <link rel="stylesheet" href="node_modules/pure-css-loader/dist/loader-bar-ping-pong.css">
-
+  <!--<link rel="stylesheet" href="node_modules/pure-css-loader/dist/loader-bar-ping-pong.css">-->
+ 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104473772-3"></script>
   <script>
@@ -42,7 +46,7 @@
 
 <body>
   <!--Script for CSS Loader-->
- 
+  <!--
   <script>
     $(document).ready(function () {
       $(document).ready(function () {
@@ -50,11 +54,11 @@
       });
     });
   </script>
-
+-->
   <!-- loader is active -->
-
+  <!--
   <div id="animation" class="loader loader-bar-ping-pong is-active" data-rounded></div>
-
+-->
   <!-- Nav Bar-->
   <nav class="navbar navbar-expand-lg sticky-top navbar-dark  navgreen  kanit">
     <span>
@@ -69,7 +73,7 @@
         <a class="nav-item nav-link " href="download">ดาวน์โหลด<span class="sr-only">(current)</span></a>
       </ul>
 
-      <ul class="navbar-nav desktop-social">
+      <ul class="navbar-nav desktop-social my-fullscreen-only">
         <a class="nav-item nav-link" href="https://github.com/theethawat"><i class="fab fa-github"></i> <span class="mobile-only">GitHub</span></a>
         <a class="nav-item nav-link" href="https://facebook.com/theduckcreatorthailand"><i class="fab fa-facebook"></i>
           <span class="mobile-only">facebook</span></a>
@@ -110,8 +114,8 @@
     <!--Introduce My Self-->
     <div class="row">
       <div class="col-sm-4">
-        <div class="card-body headpic1">
-          <img src="itemphoto/tin.jpg" class="myimage" alt="Theethawat Savastham"><br>
+        <div class="card-body headpic1 piccenter">
+          <img src="itemphoto/tin.jpg" class="myimage" alt="Theethawat Savastham">
         </div>
       </div>
       <!--for col sm 4-->
@@ -126,8 +130,8 @@
           <span style="color:deeppink">ผมไม่แน่ใจ</span>
           <footer class="blockquote-footer">ธีร์ธวัช สวาสดิ์ธรรม</footer>
         </blockquote>
-        <div class="flexdiv b-logo-center">
-          <h1 class="acenter b-logo"><a class="text-dark" href="https://www.facebook.com/theduckcreatorthailand" target="_blank"><i
+        <div class="flexdiv b-logo-center piccenter ">
+          <h1 class="acenter b-logo "><a class="text-dark" href="https://www.facebook.com/theduckcreatorthailand" target="_blank"><i
                 class="fab fa-facebook-square"></i> </a></h1>
           <h1 class="acenter b-logo"><a class="text-dark" href="https://instagram.com/tin_savastham" target="_blank"><i
                 class="fab fa-instagram"></i> </a></h1>
@@ -141,23 +145,27 @@
     </div>
     <!--for row div-->
     <br>
-    <h3 class="kanit heading-phase" id="feature">Feature Project</h3>
+    <h4 class="kanit heading-phase" id="feature">Feature Project</h4>
     <hr>
     <div class="row">
-      <div class="col-sm">
-        <img class="img-fluid" src="itemphoto/react-game.png">
+      <div class="col-sm" style="margin-bottom:1em;">
+        <img class="img-fluid" src="itemphoto/react-game.png" style="height:180px;margin-bottom: 0.4em;">
         <h5 class="kanit">First My React JS App </h5>
         <p><span class="badge badge-warning"> <i class="fas fa-graduation-cap"></i> ClassWork</span>
-          <br>เกมโดยใช้ React Javascript Library โดยเป็นเกมเรียงตัวอักษรชื่อของเมมเบอร์ BNK48 รุ่นที่ 1 ณ วันที่ 24 กันยายน ในชุด Kimi Wa Melody สุ่ม 1 จาก 26 
+          <br>เกมโดยใช้ React Javascript Library โดยเป็นเกมเรียงตัวอักษรชื่อของเมมเบอร์ BNK48 รุ่นที่ 1 ณ วันที่ 24
+          กันยายน ในชุด Kimi Wa Melody สุ่ม 1 จาก 26
           อยากพิสูจน์ความเป็นโอตะในตัวคุณลองเล่นกันเลย <br>
-          <a href="https://theethawat.github.io/card-game">เล่นเกม</a> | <a href="https://github.com/theethawat/card-game">อ่าน Readme และ โค้ด</a>
+          <a href="https://theethawat.github.io/card-game">เล่นเกม</a> | <a href="https://github.com/theethawat/card-game">อ่าน
+            Readme และ โค้ด</a>
         </p>
       </div>
-      <div class="col-sm">
-        <img class="img-fluid" src="itemphoto/tagrun.png">
+      <div class="col-sm" style="margin-bottom:1em;">
+        <img class="img-fluid" src="itemphoto/tagrun.png" style="height:180px;margin-bottom: 0.4em;">
         <h5 class="kanit">Tag Run Serial Number Congratulation </h5>
-        <p>บางทีเราอาจจะไม่สามารถพอที่จะสามารถให้ของดีๆ ในการแสดงความยินดีโอกาสต่างๆ ได้ เลยมีความคิดที่จะทำอะไรให้แปลกใหม่ โดยการแจกของเล็กๆ น้อยๆ
-          ประกอบกับ QR Code แบบสุ่มตัวเลข แล้วใช้โปรแกรม Map หมายเลขกับคำอวยพร ทำให้ดูเก๋ และ มีคุณค่า <br>
+        <p><span class="badge badge-success"> <i class="fas fa-star"></i> Success </span>
+        <br>ในการแสดงความยินดีโอกาสต่างๆ อาจจะไม่ได้มีของขวัญหรูๆ 
+          เลยมีความคิดที่จะทำอะไรให้แปลกใหม่ โดยการแจกของเล็กๆ น้อยๆ
+          ประกอบกับ QR Code แบบสุ่มตัวเลข แล้วใช้โปรแกรม Map หมายเลขกับคำอวยพรให้ดูดีและมีค่า <br>
           <a href="https://theethawat.github.io/shopcongrat18">ความเป็นมา และ Document </a> | <a href="https://github.com/theethawat/shopcongrat18">ดูโค้ด</a>
         </p>
       </div>
@@ -173,27 +181,14 @@
 
     <br>
     <!--Passing Work-->
-    <h3 class="kanit heading-phase" id="work">งานที่เคยทำ</h3>
+    <h4 class="kanit heading-phase" id="work">งานที่เคยทำ <a><button class="btn btn-light kanit"><i class="fas fa-plus"></i>
+          More</button></a> </h4>
     <hr>
     <div class="row">
       <div class="col-sm ">
-        <h5 class="kanit acenter center-board-head  bg-tur-col  text-white "><i class="fas fa-code"></i> Web Programing</h5>
+        <h5 class="kanit acenter center-board-head  bg-tur-col  text-white "><i class="fas fa-code"></i> Programing</h5>
         <div class="my-col-scroll">
-          <!--Starting-->
-          <div class="card  bg-lightgray">
-            <div class="row">
-              <div class="col-4 align-self-center">
-                <h2 class="acenter"> <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> </h2>
-              </div>
-              <div class="col-8">
-                <h6 class="kanit"><a class="text-secondary" href="https://theethawatcoe.firebaseapp.com" target="_blank">Government
-                    Smart Kiosk Study Page</a></h6>
-                <p><span class="badge badge-warning"> <i class="fas fa-graduation-cap"></i> ClassWork</span> <span
-                    class="badge badge-success"> <i class="fas fa-star"></i> Debut</span></p>
-              </div>
-            </div>
-          </div>
-          <!--Ending-->
+
           <!--Starting-->
           <div class="card  bg-lightgray">
             <div class="row">
@@ -209,93 +204,54 @@
             </div>
           </div>
           <!--Ending-->
+
           <!--Starting-->
           <div class="card  bg-lightgray">
             <div class="row">
               <div class="col-4 align-self-center">
-                <h2 class="acenter"><i class="fab fa-js-square"></i> <i class="fab fa-react"></i> </h2>
+                <h2 class="acenter"><i class="fab fa-html5"></i> <i class="fab fa-php"></i> </h2>
               </div>
               <div class="col-8">
-                <h6 class="kanit"><a class="text-secondary" href="https://theethawat.github.io/card-game" target="_blank">React
-                    App BNK48 Card Game</a></h6>
-                <p> <span class="badge badge-warning"> <i class="fas fa-graduation-cap"></i> ClassWork</span> <span
-                    class="badge badge-success"> <i class="fas fa-star"></i> Debut</span></p>
+                <h6 class="kanit"><a class="text-secondary" href="https://theethawat.github.io/BIG-Asia-App" target="_blank">BIG
+                    Asia App</a></h6>
+                <p> <span class="badge badge-primary"><i class="fas fa-cookie-bite"></i> Fail Project </span></p>
               </div>
             </div>
           </div>
           <!--Ending-->
-           <!--Starting-->
-           <div class="card  bg-lightgray">
+          <!--Starting-->
+          <div class="card  bg-lightgray">
             <div class="row">
               <div class="col-4 align-self-center">
-                <h2 class="acenter"><i class="fab fa-php"></i> <i class="fab fa-laravel"></i></h2>
+                <h2 class="acenter"><i class="fab fa-html5"></i> <i class="fab fa-php"></i> </h2>
               </div>
               <div class="col-8">
-                <h6 class="kanit"><a class="text-secondary" href="https://theethawat.github.io/Laravellab-Friedchicken" target="_blank">Fired Chicken Buying Simulator</a></h6>
-                <p> <span class="badge badge-warning"> <i class="fas fa-graduation-cap"></i> ClassWork</span> <span
-                  class="badge badge-success"> <i class="fas fa-star"></i> Debut</span> </p>
+                <h6 class="kanit"><a class="text-secondary" href="https://theethawat.github.io/Thailandbloghub" target="_blank">Thailand
+                    Blog Hub</a></h6>
+                <p> <span class="badge badge-primary"><i class="fas fa-cookie-bite"></i> Fail Project </span></p>
               </div>
             </div>
           </div>
           <!--Ending-->
-            <!--Starting-->
-            <div class="card  bg-lightgray">
-              <div class="row">
-                <div class="col-4 align-self-center">
-                  <h2 class="acenter"><i class="fab fa-php"></i> <i class="fab fa-laravel"></i></h2>
-                </div>
-                <div class="col-8">
-                  <h6 class="kanit"><a class="text-secondary" href="https://theethawat.github.io/shopcongrat18" target="_blank">Serial Number Run Congratulation System</a></h6>
-                  <p> <span class="badge badge-success"> <i class="fas fa-glass-cheers"></i> Success</span> </p>
-                </div>
-              </div>
-            </div>
-            <!--Ending-->
-            <!--Starting-->
-            <div class="card  bg-lightgray">
-              <div class="row">
-                <div class="col-4 align-self-center">
-                  <h2 class="acenter"><i class="fab fa-php"></i> </h2>
-                </div>
-                <div class="col-8">
-                  <h6 class="kanit"><a class="text-secondary" href="https://theethawat.github.io/BIG-Asia-App" target="_blank">BIG
-                      Asia App</a></h6>
-                  <p> <span class="badge badge-primary"><i class="fas fa-cookie-bite"></i> Fail Project </span></p>
-                </div>
-              </div>
-            </div>
-            <!--Ending-->
-            <!--Starting-->
-            <div class="card  bg-lightgray">
-              <div class="row">
-                <div class="col-4 align-self-center">
-                  <h2 class="acenter"><i class="fab fa-php"></i> </h2>
-                </div>
-                <div class="col-8">
-                  <h6 class="kanit"><a class="text-secondary" href="https://theethawat.github.io/Thailandbloghub" target="_blank">Thailand
-                      Blog Hub</a></h6>
-                  <p> <span class="badge badge-primary"><i class="fas fa-cookie-bite"></i> Fail Project </span></p>
-                </div>
-              </div>
-            </div>
-            <!--Ending-->
 
         </div>
         <!--for scroll div-->
-       <a><button class="btn btn-light kanit piccenter" style="margin-top:0.3em;margin-bottom: 0.3em;"><i class="fas fa-plus"></i> More</button></a>
+
       </div>
       <!--CONTENT AND CREATIVING-->
       <div class="col-sm">
-        <h5 class="kanit acenter center-board-head  bg-orange-col  text-white "><i class="fas fa-globe-asia"></i> Content and Creativing </h5>
+        <h5 class="kanit acenter center-board-head  bg-orange-col  text-white "><i class="fas fa-globe-asia"></i>
+          Content and Creativing </h5>
         <div class="my-col-scroll">
           <!--Starting-->
           <div class="card  bg-lightgray">
             <div class="row">
               <div class="col-4 align-self-center">
-                <h2 class="acenter"> <i class="fas fa-globe-asia"></i>  </h2>
+                <h2 class="acenter"> <i class="fas fa-globe-asia"></i> </h2>
               </div>
               <div class="col-8">
-                <h6 class="kanit"><a class="text-secondary" href="http://thebigworld.wixsite.com/bigasia" target="_blank">BIG Asia Website with Wix</a></h6>
+                <h6 class="kanit"><a class="text-secondary" href="http://thebigworld.wixsite.com/bigasia" target="_blank">BIG
+                    Asia Website with Wix</a></h6>
                 <p><span class="badge badge-warning"> <i class="fas fa-graduation-cap"></i> ClassWork</span> </p>
               </div>
             </div>
@@ -308,15 +264,16 @@
                 <h2 class="acenter"> <i class="fab fa-wordpress"></i> </h2>
               </div>
               <div class="col-8">
-                <h6 class="kanit"><a class="text-secondary" href="https://theethawat.github.io/bigasia" target="_blank">BIG Asia Website</a></h6>
-                <p><span class="badge badge-success"> <i class="fas fa-star"></i>Hosting Debut</span> 
-                   <span class="badge badge-danger"><i class="far fa-stop-circle"></i> Stoped </span></p>
+                <h6 class="kanit"><a class="text-secondary" href="https://theethawat.github.io/bigasia" target="_blank">BIG
+                    Asia Website</a></h6>
+                <p><span class="badge badge-success"> <i class="fas fa-star"></i>Hosting Debut</span>
+                  <span class="badge badge-danger"><i class="far fa-stop-circle"></i> Stoped </span></p>
               </div>
             </div>
           </div>
           <!--Ending-->
-           <!--Starting-->
-           <div class="card  bg-lightgray">
+          <!--Starting-->
+          <div class="card  bg-lightgray">
             <div class="row">
               <div class="col-4 align-self-center">
                 <h2 class="acenter"><i class="fab fa-wordpress"></i> <i class="fas fa-pen-square"></i> </h2>
@@ -334,7 +291,8 @@
       </div>
       <!--BIG PROJECT UNDER NAMED TDC-->
       <div class="col-sm">
-        <h5 class="kanit acenter center-board-head  bg-deeppink-col  text-white "><i class="fas fa-project-diagram"></i> Big Under Named TDC</h5>
+        <h5 class="kanit acenter center-board-head  bg-deeppink-col  text-white "><i class="fas fa-project-diagram"></i>
+          Project with TDC</h5>
         <div class="my-col-scroll">
           <!--Starting-->
           <div class="card  bg-lightgray">
@@ -343,34 +301,113 @@
                 <h2 class="acenter"><i class="fab fa-php"></i> <i class="fab fa-laravel"></i></h2>
               </div>
               <div class="col-8">
-                <h6 class="kanit"><a class="text-secondary" href="https://theethawat.github.io/Thailandbloghub-Laravel" target="_blank">Thailandbloghub-Laravel</a></h6>
-                <p>  <span class="badge badge-danger"><i class="far fa-stop-circle"></i> Stoped </span> </p>
+                <h6 class="kanit"><a class="text-secondary" href="https://theethawat.github.io/Thailandbloghub-Laravel"
+                    target="_blank">Thailandbloghub-Laravel</a></h6>
+                <p> <span class="badge badge-danger"><i class="far fa-stop-circle"></i> Stoped </span> </p>
               </div>
             </div>
           </div>
           <!--Ending-->
-             <!--Starting-->
-             <div class="card  bg-lightgray">
-              <div class="row">
-                <div class="col-4 align-self-center">
-                  <h2 class="acenter"><i class="fab fa-php"></i> <i class="fab fa-laravel"></i></h2>
-                </div>
-                <div class="col-8">
-                  <h6 class="kanit"><a class="text-secondary" href="https://theduckcreator.github.io/thaileague" target="_blank">Thaileague Unoffical App</a></h6>
-                  <p>  <span class="badge badge-danger"><i class="far fa-stop-circle"></i> Stoped </span> </p>
-                </div>
+          <!--Starting-->
+          <div class="card  bg-lightgray">
+            <div class="row">
+              <div class="col-4 align-self-center">
+                <h2 class="acenter"><i class="fab fa-php"></i> <i class="fab fa-laravel"></i></h2>
+              </div>
+              <div class="col-8">
+                <h6 class="kanit"><a class="text-secondary" href="https://theduckcreator.github.io/thaileague" target="_blank">Thaileague
+                    Unoffical App</a></h6>
+                <p> <span class="badge badge-danger"><i class="far fa-stop-circle"></i> Stoped </span> </p>
               </div>
             </div>
-            <!--Ending-->
+          </div>
+          <!--Ending-->
         </div>
         <!--for scroll div-->
       </div>
     </div>
 
+    <!--PROGRAMING LANGUAGE SECTION-->
+    <!--
+    <br>
+    <h4 class="kanit heading-phase" id="skill">My Skill</h4>
+    <hr>
+    </p>
+    <div class="row my-fullscreen-only">
+      <div class="col-sm">
+        <img class="img-fluid frontpage-logo-program" src="itemphoto/clogo.png">
+      </div>
+      <div class="col-sm">
+        <img class="img-fluid frontpage-logo-program" src="itemphoto/html5.png">
+      </div>
+      <div class="col-sm">
+        <img class="img-fluid frontpage-logo-program" src="itemphoto/css.png">
+      </div>
+      <div class="col-sm">
+        <img class="img-fluid frontpage-logo-program" src="itemphoto/javascript.PNG">
+      </div>
+      <div class="col-sm">
+        <img class="img-fluid frontpage-logo-program" src="itemphoto/php.png">
+      </div>
+      <div class="col-sm">
+        <img class="img-fluid frontpage-logo-program" src="itemphoto/mysql.png">
+      </div>
+      <div class="col-sm">
+        <img class="img-fluid frontpage-logo-program" src="itemphoto/verilog.png">
+      </div>
+    </div>
+    <div class="row my-mobile-only piccenter" style="width:90%;">
+      <div class="row">
+        <div class="col">
+          <img class="img-fluid frontpage-logo-program" src="itemphoto/clogo.png">
+        </div>
+        <div class="col">
+          <img class="img-fluid frontpage-logo-program" src="itemphoto/html5.png">
+        </div>
+        <div class="col">
+          <img class="img-fluid frontpage-logo-program" src="itemphoto/css.png">
+        </div>
+        <div class="col">
+          <img class="img-fluid frontpage-logo-program" src="itemphoto/javascript.PNG">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col">
+          <img class="img-fluid frontpage-logo-program" src="itemphoto/php.png">
+        </div>
+        <div class="col">
+          <img class="img-fluid frontpage-logo-program" src="itemphoto/mysql.png">
+        </div>
+        <div class="col">
+          <img class="img-fluid frontpage-logo-program" src="itemphoto/verilog.png">
+        </div>
+      </div>
+    </div>
+    <br>
+    <p class="acenter">ความสามารถทางภาษาโปรแกรมมิ่ง และ เฟรมเวิร์คต่างๆ แม้บางภาษาจะอยู่ในขั้นจุดเริ่มต้นก็ตาม <a href="page/about.html">อ่านเพิ่มเติม</a>
+    --><!--END SECTION--><br>
 
-
-
-    <h4 class="kanit" id="follow">ติดตามงาน</h4>
+    <!--THE DUCK CREATOR SECTION-->
+    <h4 class="kanit heading-phase" id="tdc">The Duck Creator Studio</h4>
+    <hr>
+    <div class="row">
+      <div class="col-sm">
+        <img class="img-fluid" src="itemphoto/tdc.png">
+      </div>
+      <div class="col-sm">
+        <p>&nbsp;&nbsp; <b>TDC เดอะดักส์ครีเอเตอร์</b> เป็นครีเอเตอร์สตูดิโอ ที่จัดตั้งโดยผมเอง และมีสมาชิกอยู่คนเดียว ณ ขณะนี้คือ
+          ผมเอง นำเสนองานต่างๆ ที่อาจจะ
+          อยู่ในสถานะ On Trying Project ในฐานะ Developer ฝึกหัด หลายๆ คนมักจะเสนอความสำเร็จ แต่เรายินดีเสนอทั้งที่<b>สำเร็จ</b>
+          และ <b>ไม่สำเร็จ</b> เพื่อที่จะให้ผู้ที่สนใต
+          ได้เรียนรู้ จากความไม่สำเร็จเหล่านั้น ไว้เป็นบทเรียนต่อไป 
+          <ul class="kanit">ติดตาม The Duck Creator ได้ที่ <a href="https://theduckcreator.github.io">tdc.theethawatspace.in.th</a></ul>
+        </p>
+      </div>
+    </div>
+    <!--END SECTION-->
+    <br>
+    <h4 class="kanit heading-phase" id="followme">ติดตามงาน</h4>
     <hr>
     <div class="row">
       <div class="col ">
@@ -391,6 +428,11 @@
         <h5 class="kanit">ติดตามบน Instagram</h5>
         <h6 class="kanit"><i class="fab fa-instagram"></i></i><a href="https://instagram.com/tin_savastham">
             tin_savastham</a></h6>
+        <br>
+        <h5 class="kanit">ติดต่อทางอีเมล</h5>
+        <h6 class="kanit"><i class="fas fa-envelope"></i><a href="mailto:theethawat.s@outlook.co.th">
+            theethawat.s@outlook.co.th</a></h6>
+
       </div>
       <!--for col div -->
     </div>
@@ -401,13 +443,18 @@
 
     <br><br><br>
     <hr>
-    <p style="text-align:center;font-size:14px;">Theethawat Savastham | <a href="mailto:theethawat.s@outlook.co.th"><i
-          class="fas fa-envelope"></i>theethawat.s@outlook.co.th </a> | www.theethawatspace.in.th</p>
+    <p class="acenter">Made With <i class="fas fa-heart"></i> By Tin and TDC | Prounding Using Hosted By <i class="fab fa-github"></i>
+      <a class="text-dark" href="https://github.com/theethawat" target="_blank">GitHub</a>
+    </p>
 
   </div>
   <!--for container div -->
-
-
+  <!--Buit in JS Script From Bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
